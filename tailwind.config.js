@@ -20,6 +20,21 @@ module.exports = {
       colors: {
         emerald: colors.emerald,
         gray: colors.trueGray,
+        accent: {
+          blue: '00263C',
+          orange: '#FF5F00',
+        },
+        grey: {
+          2: '#E0E0E0',
+          3: '#C4C4C4',
+          4: '#BDBDBD',
+        },
+      },
+      width: {
+        417: '417px',
+      },
+      height: {
+        64: '64.48px',
       },
     },
   },

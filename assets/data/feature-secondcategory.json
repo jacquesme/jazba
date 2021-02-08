@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Cricket",
+    "src": "/img/cricket.png"
+  },
+  {
+    "name": "Court",
+    "src": "/img/court.png"
+  },
+  {
+    "name": "Urban Style",
+    "src": "/img/urban-style.png"
+  },
+  {
+    "name": "Shock Shoe",
+    "src": "/img/shock-shoe.png"
+  }
+]
