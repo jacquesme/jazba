@@ -1,12 +1,12 @@
 <template>
   <div class="w-full">
     <img
-      :src="homeoneviewitem.src"
+      :src="homeOneViewItem.src"
       alt="shoe image"
       class="w-1/2 h-auto md:w-full m-auto"
     />
     <h3 class="text-center text-base mt-2">
-      {{ homeoneviewitem.name }}
+      {{ homeOneViewItem.name }}
     </h3>
   </div>
 </template>
@@ -14,7 +14,10 @@
 <script>
 export default {
   props: {
-    homeoneviewitem: [Object, Array],
+    homeOneViewItem: {
+      type: Object,
+      default: () => ({}),
+    },
   },
 }
 </script>

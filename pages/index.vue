@@ -29,25 +29,25 @@
       <h2 class="text-center text-2xl font-bold">Top Products</h2>
       <div class="flex flex-col md:flex-row mt-2 mb-10">
         <TopProducts
-          v-for="(topitem, key) in topitems"
-          :key="key"
-          :topitem="topitem"
+          v-for="(topItem, index) in topItems"
+          :key="index"
+          :top-item="topItem"
         />
       </div>
       <h2 class="text-center text-2xl font-bold pt-10">Featured Category</h2>
       <div class="flex flex-col md:flex-row mt-8">
         <FeatureFirstCategory
-          v-for="(featurefirstitem, key) in featurefirstitems"
-          :key="key"
+          v-for="(featureFirstItem, index) in featureFirstItems"
+          :key="index"
           class="my-4"
-          :featurefirstitem="featurefirstitem"
+          :feature-first-item="featureFirstItem"
         />
       </div>
       <div class="flex flex-col md:space-x-6 md:flex-row mt-2">
         <FeatureSecondCategory
-          v-for="(featureseconditem, key) in featureseconditems"
-          :key="key"
-          :featureseconditem="featureseconditem"
+          v-for="(featureSecondItem, index) in featureSecondItems"
+          :key="index"
+          :feature-second-item="featureSecondItem"
         />
       </div>
     </div>
@@ -60,9 +60,9 @@
       <div class="flex flex-col md:flex-row px-10 md:px-48">
         <HomeViewOne />
         <HomeViewOneSearch
-          v-for="(homeoneviewitem, key) in homeoneviewitems"
-          :key="key"
-          :homeoneviewitem="homeoneviewitem"
+          v-for="(homeOneViewItem, index) in homeOneViewItems"
+          :key="index"
+          :home-one-view-item="homeOneViewItem"
         />
       </div>
     </div>
@@ -89,10 +89,10 @@ export default {
   },
   data() {
     return {
-      topitems: TopItems,
-      featurefirstitems: FeatureFirstItems,
-      featureseconditems: FeatureSecondItems,
-      homeoneviewitems: HomeOneViewItems,
+      topItems: TopItems,
+      featureFirstItems: FeatureFirstItems,
+      featureSecondItems: FeatureSecondItems,
+      homeOneViewItems: HomeOneViewItems,
     }
   },
 }
