@@ -1,17 +1,18 @@
 <template>
   <div>
-    <img
-      src="/img/on1.png"
-      alt="logo1"
-      class="w-full h-auto object-contain block m-auto"
-    />
-    <div class="w-full flex justify-center py-10">
-      <div class="flex justify-between w-16">
-        <div class="rounded-full w-2.5 h-2.5 bg-grey-3"></div>
-        <div class="rounded-full w-2.5 h-2.5 bg-accent-orange"></div>
-        <div class="rounded-full w-2.5 h-2.5 bg-grey-3"></div>
-      </div>
-    </div>
+    <Carousel />
+    <!--    <img-->
+    <!--      src="/img/on1.png"-->
+    <!--      alt="logo1"-->
+    <!--      class="w-full h-auto object-contain block m-auto"-->
+    <!--    />-->
+    <!--    <div class="w-full flex justify-center py-10">-->
+    <!--      <div class="flex justify-between w-16">-->
+    <!--        <div class="rounded-full w-2.5 h-2.5 bg-grey-3"></div>-->
+    <!--        <div class="rounded-full w-2.5 h-2.5 bg-accent-orange"></div>-->
+    <!--        <div class="rounded-full w-2.5 h-2.5 bg-grey-3"></div>-->
+    <!--      </div>-->
+    <!--    </div>-->
     <div class="px-10 md:px-48">
       <div class="w-full flex flex-col justify-center py-10">
         <h2 class="text-center text-2xl font-bold">Jazba Story</h2>
@@ -79,6 +80,7 @@ import FeatureSecondItems from '~/assets/data/feature-secondcategory.json'
 import HomeViewOne from '~/components/HomeViewOne'
 import HomeViewOneSearch from '~/components/HomeViewOneSearch'
 import HomeOneViewItems from '~/assets/data/home-oneview.json'
+import Carousel from '~/components/Carousel'
 export default {
   components: {
     TopProducts,
@@ -86,6 +88,7 @@ export default {
     FeatureSecondCategory,
     HomeViewOne,
     HomeViewOneSearch,
+    Carousel,
   },
   data() {
     return {
