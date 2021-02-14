@@ -2,12 +2,15 @@
   <div class="w-full">
     <swiper ref="mySwiper" :options="swiperOptions">
       <swiper-slide><img src="/img/on1.png" alt="" /></swiper-slide>
-      <swiper-slide><img src="/img/on2.png" alt="" /></swiper-slide>
+      <swiper-slide><img src="/img/on21.png" alt="" /></swiper-slide>
       <swiper-slide><img src="/img/on31.png" alt="" /></swiper-slide>
     </swiper>
     <div class="swiper-button-next focus:outline-none"></div>
     <div class="swiper-button-prev focus:outline-none"></div>
-    <div slot="pagination" class="swiper-pagination w-full space-x-6"></div>
+    <div
+      slot="pagination"
+      class="swiper-pagination w-full space-x-6 mt-6"
+    ></div>
   </div>
 </template>
 
@@ -49,8 +52,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.swiper-pagination {
-  background: brown;
-}
-</style>
+<style lang="scss" scoped></style>

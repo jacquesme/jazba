@@ -36,6 +36,9 @@ module.exports = {
       height: {
         64: '64.48px',
       },
+      padding: {
+        47: '11.44rem',
+      },
     },
   },
   variants: {

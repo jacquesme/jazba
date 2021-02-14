@@ -1,9 +1,13 @@
 <template>
-  <div class="w-full md:max-w-md px-2 py-10">
-    <h2 class="text-center text-lg font-bold">Sockun Men Collection</h2>
-    <h4 class="text-center text-sm mt-2">Shoe That Make Sense</h4>
-    <div class="flex justify-center mt-6">
-      <button class="border-2 border-black text-xs py-1 px-5">View More</button>
+  <div class="w-full md:mx-20 md:p-1">
+    <div class="mt-12">
+      <h2 class="text-center text-md font-bold">Sockun Men Collection</h2>
+      <h4 class="text-center text-sm mt-2">Shoe That Make Sense</h4>
+      <div class="flex justify-center mt-6">
+        <button class="border-2 border-black text-xs py-1 px-5">
+          View More
+        </button>
+      </div>
     </div>
   </div>
 </template>
