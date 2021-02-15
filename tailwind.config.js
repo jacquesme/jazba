@@ -30,15 +30,6 @@ module.exports = {
           4: '#BDBDBD',
         },
       },
-      width: {
-        417: '417px',
-      },
-      height: {
-        64: '64.48px',
-      },
-      padding: {
-        47: '11.44rem',
-      },
     },
   },
   variants: {

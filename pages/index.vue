@@ -25,14 +25,14 @@
         />
       </div>
       <h2 class="text-center text-xl font-bold mt-28">Featured Category</h2>
-      <div class="flex flex-col md:flex-row mt-7 px-16">
+      <div class="flex flex-col md:flex-row mt-7 md:px-16">
         <FeatureFirstCategory
           v-for="(featureFirstItem, index) in featureFirstItems"
           :key="index"
           :feature-first-item="featureFirstItem"
         />
       </div>
-      <div class="flex flex-col md:space-x-6 md:flex-row px-16">
+      <div class="flex flex-col md:space-x-6 md:flex-row md:px-16">
         <FeatureSecondCategory
           v-for="(featureSecondItem, index) in featureSecondItems"
           :key="index"
@@ -47,7 +47,7 @@
       class="w-full h-auto object-contain block m-auto mt-7"
     />
     <div class="border-b border-grey-3 pb-10">
-      <div class="flex flex-col md:flex-row mt-12 px-52">
+      <div class="flex flex-col md:flex-row mt-12 md:px-52">
         <HomeViewOne />
         <HomeViewOneSearch
           v-for="(homeOneViewItem, index) in homeOneViewItems"
@@ -55,7 +55,7 @@
           :home-one-view-item="homeOneViewItem"
         />
       </div>
-      <div class="flex flex-col md:flex-row mt-4 px-52">
+      <div class="flex flex-col md:flex-row mt-4 md:px-52">
         <HomeViewTwoSearch
           v-for="(homeTwoViewItem, index) in homeTwoViewItems"
           :key="index"
@@ -70,7 +70,7 @@
           View More
         </button>
       </div>
-      <div class="flex flex-col md:flex-row mt-1 px-52">
+      <div class="flex flex-col md:flex-row mt-1 md:px-52">
         <FeatureCollection
           v-for="(featureCollectionItem, index) in featureCollectionItems"
           :key="index"

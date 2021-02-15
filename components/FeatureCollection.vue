@@ -3,7 +3,7 @@
     <img
       :src="featureCollectionItem.src"
       alt="shoe image"
-      class="w-1/2 h-auto md:w-full m-auto"
+      class="w-full h-auto m-auto"
     />
     <h3 class="text-center text-xs mt-0.5">
       {{ featureCollectionItem.name }}

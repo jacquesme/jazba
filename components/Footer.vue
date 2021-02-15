@@ -1,7 +1,7 @@
 <template>
   <div class="w-full bg-grey-2">
     <div class="flex justify-center w-full">
-      <div class="w-2/3 md:w-417 h-64 mt-8 mb-6 bg-white">
+      <div class="logo-img w-2/3 mt-8 mb-6">
         <img
           src="/img/Logo.png"
           alt="logo"
@@ -42,4 +42,13 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+.logo-img {
+  height: 64px;
+}
+@media (min-width: 768px) {
+  .logo-img {
+    width: 417px;
+  }
+}
+</style>
