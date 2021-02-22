@@ -70,7 +70,7 @@
           View More
         </button>
       </div>
-      <div class="flex flex-col md:flex-row mt-1 md:px-52">
+      <div>
         <FeatureCollection
           v-for="(featureCollectionItem, index) in featureCollectionItems"
           :key="index"
