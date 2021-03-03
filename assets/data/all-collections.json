@@ -5,7 +5,16 @@
   },
   {
     "name": "CoverDrive 100",
-    "src": "/img/coverdrive-100-black.png"
+    "detail": "Shoes",
+    "src": "/img/coverdrive-100-black.png",
+    "des": "Advanced level black color",
+    "price": "$59.99"
+  },
+  {
+    "name": "CoverDrive 100",
+    "src": "/img/coverdrive-100-blue.png",
+    "des": "Advanced level blue color",
+    "price": "$59.99"
   },
   {
     "name": "Cricket Shoes",
@@ -168,7 +177,7 @@
     "src": "/img/zabar-collection.png"
   },
   {
-    "name": "CoverDrive 100",
+    "name": "CoverDrive 100 Black",
     "src": "/img/coverdrive-100.png"
   },
   {
