@@ -1,0 +1,12 @@
+[
+  {
+    "src": "img/email.png",
+    "name": "Email Address",
+    "contact": "tredwear@info.com"
+  },
+  {
+    "src": "img/phone.png",
+    "name": "Phone Number",
+    "contact": "0800-123-321-4585"
+  }
+]

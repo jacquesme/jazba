@@ -28,12 +28,13 @@ module.exports = {
           2: '#E0E0E0',
           3: '#C4C4C4',
           4: '#BDBDBD',
+          5: '#F5F5F5',
         },
       },
     },
+    variants: {
+      extend: {},
+    },
+    plugins: [require('@tailwindcss/forms')],
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [require('@tailwindcss/forms')],
 }
