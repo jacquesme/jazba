@@ -7,7 +7,7 @@
           href="#"
           class="inline text-sm float-right order-1 md:order-2 pb-8 md:pb-0"
           ><img
-            src="/img/arrow.png"
+            src="/img/icon/arrow.png"
             alt=""
             class="inline-block pl-0 pr-4 md:px-4"
           />Back to All Collections</a

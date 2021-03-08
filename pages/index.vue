@@ -42,7 +42,7 @@
       </div>
     </div>
     <img
-      src="/img/on2.png"
+      src="/img/banner/on2.jpg"
       alt="logo2"
       class="w-full h-auto object-contain block m-auto mt-7"
     />
@@ -70,7 +70,7 @@
           View More
         </button>
       </div>
-      <div>
+      <div class="flex flex-col md:flex-row mt-4 md:px-52">
         <FeatureCollection
           v-for="(featureCollectionItem, index) in featureCollectionItems"
           :key="index"

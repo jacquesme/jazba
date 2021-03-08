@@ -2,7 +2,7 @@
   <div class="w-full bg-white">
     <div class="flex justify-center w-full">
       <div class="w-64 p-6">
-        <img src="/img/Logo.png" alt="logo" class="m-auto" />
+        <img src="/img/logo/Logo.png" alt="logo" class="m-auto" />
       </div>
     </div>
     <div class="flex justify-center w-full mb-11">

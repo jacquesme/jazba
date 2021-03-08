@@ -1,10 +1,10 @@
 [
   {
     "name": "Junior",
-    "src": "/img/junior.png"
+    "src": "/img/firstCat/junior.jpg"
   },
   {
     "name": "Field Hockey",
-    "src": "/img/field-hockey.png"
+    "src": "/img/firstCat/field-hockey.jpg"
   }
 ]

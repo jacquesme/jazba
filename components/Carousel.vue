@@ -1,9 +1,9 @@
 <template>
   <div class="w-full">
     <swiper ref="mySwiper" :options="swiperOptions">
-      <swiper-slide><img src="/img/on1.png" alt="" /></swiper-slide>
-      <swiper-slide><img src="/img/on21.png" alt="" /></swiper-slide>
-      <swiper-slide><img src="/img/on31.png" alt="" /></swiper-slide>
+      <swiper-slide><img src="/img/banner/on1.jpg" alt="" /></swiper-slide>
+      <swiper-slide><img src="/img/banner/on21.jpg" alt="" /></swiper-slide>
+      <swiper-slide><img src="/img/banner/on31.jpg" alt="" /></swiper-slide>
     </swiper>
     <div class="swiper-button-next focus:outline-none"></div>
     <div class="swiper-button-prev focus:outline-none"></div>
@@ -52,4 +52,4 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style></style>

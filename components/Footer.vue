@@ -3,7 +3,7 @@
     <div class="flex justify-center w-full">
       <div class="logo-img w-2/3 mt-8 mb-6">
         <img
-          src="/img/Logo.png"
+          src="/img/logo/Logo.png"
           alt="logo"
           class="max-w-full h-full object-contain block m-auto p-2"
         />

@@ -1,284 +1,284 @@
 [
   {
   "name": "Court Shoes",
-  "src": "/img/court-shoes-pink.png"
+  "src": "/img/shoes/court-shoes-pink.jpg"
   },
   {
     "name": "CoverDrive 100",
     "detail": "Shoes",
-    "src": "/img/coverdrive-100-black.png",
+    "src": "/img/shoes/coverdrive-100-black.jpg",
     "des": "Advanced level black color",
     "price": "$59.99"
   },
   {
     "name": "CoverDrive 100",
-    "src": "/img/coverdrive-100-blue.png",
+    "src": "/img/shoes/coverdrive-100-blue.jpg",
     "des": "Advanced level blue color",
     "price": "$59.99"
   },
   {
     "name": "Cricket Shoes",
-    "src": "/img/skydrive-290-orange.png"
+    "src": "/img/shoes/skydrive-290-orange.jpg"
   },
   {
     "name": "Geckor 2.0 Men",
-    "src": "/img/geckor-20-yellow.png"
+    "src": "/img/shoes/geckor-20-yellow.jpg"
   },
   {
     "name": "Hockey Collection",
-    "src": "/img/serpentine-10-hockey.png"
+    "src": "/img/shoes/serpentine-10-hockey.jpg"
   },
   {
     "name": "Tredwear Junior Collection",
-    "src": "/img/serpentine-10-junior.png"
+    "src": "/img/shoes/serpentine-10-junior.jpg"
   },
   {
     "name": "Tredwear Men Collection",
-    "src": "/img/mijaz-men-black-col.png"
+    "src": "/img/shoes/mijaz-men-black-col.jpg"
   },
   {
     "name": "Tredwear Women Collection",
-    "src": "/img/jazba-women.png"
+    "src": "/img/shoes/jazba-women.jpg"
   },
   {
     "name": "Lehar Collection",
-    "src": "/img/lehar.png"
+    "src": "/img/shoes/lehar.jpg"
   },
   {
     "name": "Lifestyle Shoes",
-    "src": "/img/lifestyle-shoes.png"
+    "src": "/img/shoes/lifestyle-shoes.jpg"
   },
   {
     "name": "Little Monsters",
-    "src": "/img/little-monster.png"
+    "src": "/img/shoes/little-monster.jpg"
   },
   {
     "name": "Lizardo 1X",
-    "src": "/img/lizardo-1x.png"
+    "src": "/img/shoes/lizardo-1x.jpg"
   },
   {
     "name": "Mamba One Collection",
-    "src": "/img/mamba-one-collection.png"
+    "src": "/img/shoes/mamba-one-collection.jpg"
   },
   {
     "name": "Mamba One Men",
-    "src": "/img/mamba-one-men.png"
+    "src": "/img/shoes/mamba-one-men.jpg"
   },
   {
     "name": "Mamba One Women",
-    "src": "/img/mamba-one-women.png"
+    "src": "/img/shoes/mamba-one-women.jpg"
   },
   {
     "name": "Mijaz Collection",
-    "src": "/img/mijaz-col.png"
+    "src": "/img/shoes/mijaz-col.jpg"
   },
   {
     "name": "Mijaz Men",
-    "src": "/img/mijaz-men.png"
+    "src": "/img/shoes/mijaz-men.jpg"
   },
   {
     "name": "Mijaz Women",
-    "src": "/img/mijaz-women.png"
+    "src": "/img/shoes/mijaz-women.jpg"
   },
   {
     "name": "OneDrive 111",
-    "src": "/img/one-drive-111.png"
+    "src": "/img/shoes/one-drive-111.jpg"
   },
   {
     "name": "Pehchan Collection",
-    "src": "/img/pehchan-col.png"
+    "src": "/img/shoes/pehchan-col.jpg"
   },
   {
     "name": "Qaasid Collection",
-    "src": "/img/qaasid-col.png"
+    "src": "/img/shoes/qaasid-col.jpg"
   },
   {
     "name": "Qaasid Men",
-    "src": "/img/qaasid-men.png"
+    "src": "/img/shoes/qaasid-men.jpg"
   },
   {
     "name": "Qaasid Women",
-    "src": "/img/qaasid-women.png"
+    "src": "/img/shoes/qaasid-women.jpg"
   },
   {
     "name": "Qatra Collection",
-    "src": "/img/qatra-col.png"
+    "src": "/img/shoes/qatra-col.jpg"
   },
   {
     "name": "Qatra Men",
-    "src": "/img/qatra-men.png"
+    "src": "/img/shoes/qatra-men.jpg"
   },
   {
     "name": "Qatra Women",
-    "src": "/img/qatra-women.png"
+    "src": "/img/shoes/qatra-women.jpg"
   },
   {
     "name": "R1 Collection",
-    "src": "/img/r1-collection.png"
+    "src": "/img/shoes/r1-collection.jpg"
   },
   {
     "name": "R1 Junior Collection",
-    "src": "/img/r1-junior-col.png"
+    "src": "/img/shoes/r1-junior-col.jpg"
   },
   {
     "name": "R1 Men Collection",
-    "src": "/img/r1-men-col.png"
+    "src": "/img/shoes/r1-men-col.jpg"
   },
   {
     "name": "Rattler 2.1 Collection",
-    "src": "/img/rattler-21-col.png"
+    "src": "/img/shoes/rattler-21-col.jpg"
   },
   {
     "name": "Rattler 2.1 Men",
-    "src": "/img/rattler-21-men.png"
+    "src": "/img/shoes/rattler-21-men.jpg"
   },
   {
     "name": "Rattler 2.1 Women",
-    "src": "/img/rattler-21-women.png"
+    "src": "/img/shoes/rattler-21-women.jpg"
   },
   {
     "name": "Running Shoes",
-    "src": "/img/running-shoes.png"
+    "src": "/img/shoes/running-shoes.jpg"
   },
   {
     "name": "Rutba Collection",
-    "src": "/img/rutba-col.png"
+    "src": "/img/shoes/rutba-col.jpg"
   },
   {
     "name": "Safar Collection",
-    "src": "/img/safar-col.png"
+    "src": "/img/shoes/safar-col.jpg"
   },
   {
     "name": "Serentine 1.0",
-    "src": "/img/serpentine-1.0.png"
+    "src": "/img/shoes/serpentine-1.0.jpg"
   },
   {
     "name": "Skydrive 101S",
-    "src": "/img/skydrive-101ss.png"
+    "src": "/img/shoes/skydrive-101ss.jpg"
   },
   {
     "name": "Skydrive 101T",
-    "src": "/img/skydrive-101t.png"
+    "src": "/img/shoes/skydrive-101t.jpg"
   },
   {
     "name": "Skydrive 290",
-    "src": "/img/skydrive-290.png"
+    "src": "/img/shoes/skydrive-290.jpg"
   },
   {
     "name": "Skydrive Collection",
-    "src": "/img/skydrive-collection.png"
+    "src": "/img/shoes/skydrive-collection.jpg"
   },
   {
     "name": "Sock Shoes",
-    "src": "/img/sock-shoes.png"
+    "src": "/img/shoes/sock-shoes.jpg"
   },
   {
     "name": "Zabar Collection",
-    "src": "/img/zabar-collection.png"
+    "src": "/img/shoes/zabar-collection.jpg"
   },
   {
     "name": "CoverDrive 100 Black",
-    "src": "/img/coverdrive-100.png"
+    "src": "/img/shoes/coverdrive-100.jpg"
   },
   {
     "name": "Geckor 2.0",
-    "src": "/img/geckor-2.0.png"
+    "src": "/img/shoes/geckor-2.0.jpg"
   },
   {
     "name": "Geckor 1.0",
-    "src": "/img/geckor-1.0.png"
+    "src": "/img/shoes/geckor-1.0.jpg"
   },
   {
     "name": "Little Monster",
-    "src": "/img/little-monster1.png"
+    "src": "/img/shoes/little-monster1.jpg"
   },
   {
     "name": "Lizardo 1x",
-    "src": "/img/lizardo-1xb.png"
+    "src": "/img/shoes/lizardo-1xb.jpg"
   },
   {
     "name": "Mamba One",
-    "src": "/img/mamba-oneb.png"
+    "src": "/img/shoes/mamba-oneb.jpg"
   },
   {
     "name": "Onedrive 110",
-    "src": "/img/onedrive-110.png"
+    "src": "/img/shoes/onedrive-110.jpg"
   },
   {
     "name": "Onedrive 111",
-    "src": "/img/onedrive-111.png"
+    "src": "/img/shoes/onedrive-111.jpg"
   },
   {
     "name": "R1 Junior",
-    "src": "/img/r1-junior.png"
+    "src": "/img/shoes/r1-junior.jpg"
   },
   {
     "name": "R1 Men",
-    "src": "/img/r1b-men.png"
+    "src": "/img/shoes/r1b-men.jpg"
   },
   {
     "name": "Rattler 2.1",
-    "src": "/img/rattler-2.1.png"
+    "src": "/img/shoes/rattler-2.1.jpg"
   },
   {
     "name": "Serpentine 1.0",
-    "src": "/img/serpentine-1.0B.png"
+    "src": "/img/shoes/serpentine-1.0B.jpg"
   },
   {
     "name": "Skydrive 100",
-    "src": "/img/skydrive-100.png"
+    "src": "/img/shoes/skydrive-100.jpg"
   },
   {
     "name": "Skydrive 101s",
-    "src": "/img/skydrive-101s.png"
+    "src": "/img/shoes/skydrive-101s.jpg"
   },
   {
     "name": "Skydrive 101t",
-    "src": "/img/skydrive-101tt.png"
+    "src": "/img/shoes/skydrive-101tt.jpg"
   },
   {
     "name": "Skydrive 110",
-    "src": "/img/skydrive-110-black.png"
+    "src": "/img/shoes/skydrive-110-black.jpg"
   },
   {
     "name": "Skydrive 117",
-    "src": "/img/skydrive-117.png"
+    "src": "/img/shoes/skydrive-117.jpg"
   },
   {
     "name": "Skydrive 290",
-    "src": "/img/skydrive-290B.png"
+    "src": "/img/shoes/skydrive-290B.jpg"
   },
   {
     "name": "Skyfit 300",
-    "src": "/img/skyfit-300.png"
+    "src": "/img/shoes/skyfit-300.jpg"
   },
   {
     "name": "Mijaz Men",
-    "src": "/img/mijaz-menB.png"
+    "src": "/img/shoes/mijaz-menB.jpg"
   },
   {
     "name": "Mijaz Women",
-    "src": "/img/mijaz-womenB.png"
+    "src": "/img/shoes/mijaz-womenB.jpg"
   },
   {
     "name": "Qaasid Men",
-    "src": "/img/qaasid-menB.png"
+    "src": "/img/shoes/qaasid-menB.jpg"
   },
   {
     "name": "Qaasid Women",
-    "src": "/img/qaasid-womenB.png"
+    "src": "/img/shoes/qaasid-womenB.jpg"
   },
   {
     "name": "Qatra Men",
-    "src": "/img/qatra-menB.png"
+    "src": "/img/shoes/qatra-menB.jpg"
   },
   {
     "name": "Qatra Women",
-    "src": "/img/qatra-women-frostberry.png"
+    "src": "/img/shoes/qatra-women-frostberry.jpg"
   },
   {
     "name": "Sockun Laundry Bag",
-    "src": "/img/sockun-laundry.png"
+    "src": "/img/shoes/sockun-laundry.jpg"
   }
 
 ]

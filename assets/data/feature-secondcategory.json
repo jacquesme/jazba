@@ -1,18 +1,18 @@
 [
   {
     "name": "Cricket",
-    "src": "/img/cricket.png"
+    "src": "/img/secCat/cricket.jpg"
   },
   {
     "name": "Court",
-    "src": "/img/court.png"
+    "src": "/img/secCat/court.jpg"
   },
   {
     "name": "Urban Style",
-    "src": "/img/urban-style.png"
+    "src": "/img/secCat/urban-style.jpg"
   },
   {
     "name": "Shock Shoe",
-    "src": "/img/shock-shoe.png"
+    "src": "/img/secCat/shock-shoe.jpg"
   }
 ]
