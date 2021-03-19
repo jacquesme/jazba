@@ -5,12 +5,9 @@
       <swiper-slide><img src="/img/banner/on21.jpg" alt="" /></swiper-slide>
       <swiper-slide><img src="/img/banner/on31.jpg" alt="" /></swiper-slide>
     </swiper>
-    <div class="swiper-button-next focus:outline-none"></div>
-    <div class="swiper-button-prev focus:outline-none"></div>
-    <div
-      slot="pagination"
-      class="swiper-pagination w-full space-x-6 mt-6"
-    ></div>
+    <div class="swiper-button-next focus:outline-none" />
+    <div class="swiper-button-prev focus:outline-none" />
+    <div slot="pagination" class="swiper-pagination w-full space-x-6 mt-6" />
   </div>
 </template>
 
@@ -52,4 +49,20 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-accent-orange;
+  top: 65% !important;
+}
+.swiper-pagination-bullet-active {
+  @apply bg-accent-orange;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 40% !important;
+  }
+}
+</style>

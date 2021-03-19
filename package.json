@@ -11,10 +11,12 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "swiper": "^5.4.5",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

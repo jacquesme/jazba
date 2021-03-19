@@ -9,10 +9,22 @@
       <div
         class="flex mx-4 md:mx-0 flex-row space-x-4 md:space-x-10 justify-center w-full md:w-2/3"
       >
-        <div><a href="#" class="text-md md:text-md">Home</a></div>
-        <div><a href="#" class="text-md md:text-md">About Us</a></div>
-        <div><a href="#" class="text-md md:text-md">Our Shoes</a></div>
-        <div><a href="#" class="text-md md:text-md">Contact Us</a></div>
+        <div>
+          <NuxtLink to="/" class="text-md md:text-md">Home</NuxtLink>
+        </div>
+        <div>
+          <NuxtLink to="/about" class="text-md md:text-md">About Us</NuxtLink>
+        </div>
+        <div>
+          <NuxtLink to="/collections" class="text-md md:text-md"
+            >Our Shoes</NuxtLink
+          >
+        </div>
+        <div>
+          <NuxtLink to="/contact" class="text-md md:text-md"
+            >Contact Us</NuxtLink
+          >
+        </div>
       </div>
     </div>
   </div>

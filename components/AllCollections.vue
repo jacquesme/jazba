@@ -1,11 +1,20 @@
 <template>
   <div class="">
-    <img :src="fullCollectionItem.src" alt="shoe-image" class="w-full h-auto" />
-    <h2 class="text-center">{{ fullCollectionItem.name }}</h2>
+    <NuxtLink to="/product">
+      <img
+        :src="fullCollectionItem.src"
+        alt="shoe-image"
+        class="w-full h-auto"
+      />
+      <h2 class="text-center">
+        {{ fullCollectionItem.name }}
+      </h2>
+    </NuxtLink>
   </div>
 </template>
 
 <script>
+// import AllCollectionsItems from '~/assets/data/all-collections.json'
 export default {
   props: {
     fullCollectionItem: {
