@@ -28,7 +28,7 @@
         Only TREADWEAR dares to be original, meaningful and Passionate. Join Us
         Today.
       </p>
-      <div class="w-36 h-auto m-auto mt-14">
+      <div class="w-36 h-auto m-auto mt-14 wow slideInLeft">
         <img src="/img/milana.jpg" alt="milana" />
         <h3 class="text-center text-xs font-bold">Milana Prokhorova</h3>
         <h2 class="text-center text-xs">Founder / Director</h2>
