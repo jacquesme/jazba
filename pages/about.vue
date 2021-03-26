@@ -1,6 +1,6 @@
 <template>
   <div class="px-10 md:px-40 pb-16">
-    <div class="mt-14">
+    <div class="mt-14 animate__animated animate__fadeInUpBig">
       <p class="text-center text-xs">
         If you’ve ever had to sacrifice and persevere then you understand what
         this brand is all about. There is a passion that is often driven by the
@@ -28,7 +28,9 @@
         Only TREADWEAR dares to be original, meaningful and Passionate. Join Us
         Today.
       </p>
-      <div class="w-36 h-auto m-auto mt-14 wow slideInLeft">
+      <div
+        class="w-36 h-auto m-auto mt-14 animate__animated animate__delay-1s animate__bounceIn"
+      >
         <img src="/img/milana.jpg" alt="milana" />
         <h3 class="text-center text-xs font-bold">Milana Prokhorova</h3>
         <h2 class="text-center text-xs">Founder / Director</h2>

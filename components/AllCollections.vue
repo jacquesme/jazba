@@ -14,7 +14,6 @@
 </template>
 
 <script>
-// import AllCollectionsItems from '~/assets/data/all-collections.json'
 export default {
   props: {
     fullCollectionItem: {

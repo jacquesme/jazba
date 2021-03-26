@@ -7,8 +7,6 @@
 </template>
 
 <script>
-import 'animate.css'
-import '~/plugins/wow'
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 
