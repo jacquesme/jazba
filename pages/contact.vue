@@ -6,7 +6,7 @@
       v-for="(contactItem, index) in contactItems"
       :key="index"
       :contact-item="contactItem"
-      class="mt-5"
+      class="mt-5 animate__animated animate__bounceIn"
     />
   </div>
 </template>

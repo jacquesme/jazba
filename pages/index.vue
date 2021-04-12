@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Carousel />
+    <Carousel class="animate__animated animate__fadeIn" />
 
     <div class="px-10 md:px-40 mt-32">
       <div class="w-full flex flex-col justify-center -mt-1.5">

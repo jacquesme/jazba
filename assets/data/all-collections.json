@@ -1,7 +1,9 @@
 [
   {
   "name": "Court Shoes",
-  "src": "/img/shoes/court-shoes-pink.jpg"
+  "src": "/img/shoes/court-shoes-pink.jpg",
+    "des": "Advanced court shoes",
+    "price": "$59.99"
   },
   {
     "name": "CoverDrive 100",
@@ -18,267 +20,399 @@
   },
   {
     "name": "Cricket Shoes",
-    "src": "/img/shoes/skydrive-290-orange.jpg"
+    "src": "/img/shoes/skydrive-290-orange.jpg",
+    "des": "Advanced Cricket",
+    "price": "$59.99"
   },
   {
     "name": "Geckor 2.0 Men",
-    "src": "/img/shoes/geckor-20-yellow.jpg"
+    "src": "/img/shoes/geckor-20-yellow.jpg",
+    "des": "Extreme comfort",
+    "price": "$59.99"
   },
   {
     "name": "Hockey Collection",
-    "src": "/img/shoes/serpentine-10-hockey.jpg"
+    "src": "/img/shoes/serpentine-10-hockey.jpg",
+    "des": "Strenghtened tips",
+    "price": "$59.99"
   },
   {
     "name": "Tredwear Junior Collection",
-    "src": "/img/shoes/serpentine-10-junior.jpg"
+    "src": "/img/shoes/serpentine-10-junior.jpg",
+    "des": "Thermal protection",
+    "price": "$59.99"
   },
   {
     "name": "Tredwear Men Collection",
-    "src": "/img/shoes/mijaz-men-black-col.jpg"
+    "src": "/img/shoes/mijaz-men-black-col.jpg",
+    "des": "Comfort in all conditions",
+    "price": "$59.99"
   },
   {
     "name": "Tredwear Women Collection",
-    "src": "/img/shoes/jazba-women.jpg"
+    "src": "/img/shoes/jazba-women.jpg",
+    "des": "Thermal protection",
+    "price": "$59.99"
   },
   {
     "name": "Lehar Collection",
-    "src": "/img/shoes/lehar.jpg"
+    "src": "/img/shoes/lehar.jpg",
+    "des": "Stylish design",
+    "price": "$59.99"
   },
   {
     "name": "Lifestyle Shoes",
-    "src": "/img/shoes/lifestyle-shoes.jpg"
+    "src": "/img/shoes/lifestyle-shoes.jpg",
+    "des": "All natural leather",
+    "price": "$59.99"
   },
   {
     "name": "Little Monsters",
-    "src": "/img/shoes/little-monster.jpg"
+    "src": "/img/shoes/little-monster.jpg",
+    "des": "For extreme sports",
+    "price": "$59.99"
   },
   {
     "name": "Lizardo 1X",
-    "src": "/img/shoes/lizardo-1x.jpg"
+    "src": "/img/shoes/lizardo-1x.jpg",
+    "des": "Active cushion",
+    "price": "$59.99"
   },
   {
     "name": "Mamba One Collection",
-    "src": "/img/shoes/mamba-one-collection.jpg"
+    "src": "/img/shoes/mamba-one-collection.jpg",
+    "des": "All terrain",
+    "price": "$59.99"
   },
   {
     "name": "Mamba One Men",
-    "src": "/img/shoes/mamba-one-men.jpg"
+    "src": "/img/shoes/mamba-one-men.jpg",
+    "des": "For rugged terrain",
+    "price": "$59.99"
   },
   {
     "name": "Mamba One Women",
-    "src": "/img/shoes/mamba-one-women.jpg"
+    "src": "/img/shoes/mamba-one-women.jpg",
+    "des": "For rugged terrain",
+    "price": "$59.99"
   },
   {
     "name": "Mijaz Collection",
-    "src": "/img/shoes/mijaz-col.jpg"
+    "src": "/img/shoes/mijaz-col.jpg",
+    "des": "Urban active",
+    "price": "$59.99"
   },
   {
     "name": "Mijaz Men",
-    "src": "/img/shoes/mijaz-men.jpg"
+    "src": "/img/shoes/mijaz-men.jpg",
+    "des": "Urban active for men",
+    "price": "$59.99"
   },
   {
     "name": "Mijaz Women",
-    "src": "/img/shoes/mijaz-women.jpg"
+    "src": "/img/shoes/mijaz-women.jpg",
+    "des": "Urban active for women",
+    "price": "$59.99"
   },
   {
     "name": "OneDrive 111",
-    "src": "/img/shoes/one-drive-111.jpg"
+    "src": "/img/shoes/one-drive-111.jpg",
+    "des": "Perfect for the driving range",
+    "price": "$59.99"
   },
   {
     "name": "Pehchan Collection",
-    "src": "/img/shoes/pehchan-col.jpg"
+    "src": "/img/shoes/pehchan-col.jpg",
+    "des": "Stylish and comfortable",
+    "price": "$59.99"
   },
   {
     "name": "Qaasid Collection",
-    "src": "/img/shoes/qaasid-col.jpg"
+    "src": "/img/shoes/qaasid-col.jpg",
+    "des": "Outdoor activity shoes",
+    "price": "$59.99"
   },
   {
     "name": "Qaasid Men",
-    "src": "/img/shoes/qaasid-men.jpg"
+    "src": "/img/shoes/qaasid-men.jpg",
+    "des": "Outdoor activity shoes for men",
+    "price": "$59.99"
   },
   {
     "name": "Qaasid Women",
-    "src": "/img/shoes/qaasid-women.jpg"
+    "src": "/img/shoes/qaasid-women.jpg",
+    "des": "Outdoor activity shoes for women",
+    "price": "$59.99"
   },
   {
     "name": "Qatra Collection",
-    "src": "/img/shoes/qatra-col.jpg"
+    "src": "/img/shoes/qatra-col.jpg",
+    "des": "All terrain shoes",
+    "price": "$59.99"
   },
   {
     "name": "Qatra Men",
-    "src": "/img/shoes/qatra-men.jpg"
+    "src": "/img/shoes/qatra-men.jpg",
+    "des": "All terrain shoes for men",
+    "price": "$59.99"
   },
   {
     "name": "Qatra Women",
-    "src": "/img/shoes/qatra-women.jpg"
+    "src": "/img/shoes/qatra-women.jpg",
+    "des": "All terrain shoes for women",
+    "price": "$59.99"
   },
   {
     "name": "R1 Collection",
-    "src": "/img/shoes/r1-collection.jpg"
+    "src": "/img/shoes/r1-collection.jpg",
+    "des": "Outdoor activity",
+    "price": "$59.99"
   },
   {
     "name": "R1 Junior Collection",
-    "src": "/img/shoes/r1-junior-col.jpg"
+    "src": "/img/shoes/r1-junior-col.jpg",
+    "des": "Outdoor activity shoes",
+    "price": "$59.99"
   },
   {
     "name": "R1 Men Collection",
-    "src": "/img/shoes/r1-men-col.jpg"
+    "src": "/img/shoes/r1-men-col.jpg",
+    "des": "Outdoor activity men",
+    "price": "$59.99"
   },
   {
     "name": "Rattler 2.1 Collection",
-    "src": "/img/shoes/rattler-21-col.jpg"
+    "src": "/img/shoes/rattler-21-col.jpg",
+    "des": "Ideal hiking shoes",
+    "price": "$59.99"
   },
   {
     "name": "Rattler 2.1 Men",
-    "src": "/img/shoes/rattler-21-men.jpg"
+    "src": "/img/shoes/rattler-21-men.jpg",
+    "des": "Hiking shoes men",
+    "price": "$59.99"
   },
   {
     "name": "Rattler 2.1 Women",
-    "src": "/img/shoes/rattler-21-women.jpg"
+    "src": "/img/shoes/rattler-21-women.jpg",
+    "des": "Hiking shoes women",
+    "price": "$59.99"
   },
   {
     "name": "Running Shoes",
-    "src": "/img/shoes/running-shoes.jpg"
+    "src": "/img/shoes/running-shoes.jpg",
+    "des": "Comfortable track shoes",
+    "price": "$59.99"
   },
   {
     "name": "Rutba Collection",
-    "src": "/img/shoes/rutba-col.jpg"
+    "src": "/img/shoes/rutba-col.jpg",
+    "des": "Thermal collection",
+    "price": "$59.99"
   },
   {
     "name": "Safar Collection",
-    "src": "/img/shoes/safar-col.jpg"
+    "src": "/img/shoes/safar-col.jpg",
+    "des": "Active with style",
+    "price": "$59.99"
   },
   {
     "name": "Serentine 1.0",
-    "src": "/img/shoes/serpentine-1.0.jpg"
+    "src": "/img/shoes/serpentine-1.0.jpg",
+    "des": "Heel protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 101S",
-    "src": "/img/shoes/skydrive-101ss.jpg"
+    "src": "/img/shoes/skydrive-101ss.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 101T",
-    "src": "/img/shoes/skydrive-101t.jpg"
+    "src": "/img/shoes/skydrive-101t.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 290",
-    "src": "/img/shoes/skydrive-290.jpg"
+    "src": "/img/shoes/skydrive-290.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive Collection",
-    "src": "/img/shoes/skydrive-collection.jpg"
+    "src": "/img/shoes/skydrive-collection.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Sock Shoes",
-    "src": "/img/shoes/sock-shoes.jpg"
+    "src": "/img/shoes/sock-shoes.jpg",
+    "des": "Thermal protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Zabar Collection",
-    "src": "/img/shoes/zabar-collection.jpg"
+    "src": "/img/shoes/zabar-collection.jpg",
+    "des": "Stylish and comfortable",
+    "price": "$59.99"
   },
   {
     "name": "CoverDrive 100 Black",
-    "src": "/img/shoes/coverdrive-100.jpg"
+    "src": "/img/shoes/coverdrive-100.jpg",
+    "des": "Perfect driving range shoes",
+    "price": "$59.99"
   },
   {
     "name": "Geckor 2.0",
-    "src": "/img/shoes/geckor-2.0.jpg"
+    "src": "/img/shoes/geckor-2.0.jpg",
+    "des": "Waterproof technology",
+    "price": "$59.99"
   },
   {
     "name": "Geckor 1.0",
-    "src": "/img/shoes/geckor-1.0.jpg"
+    "src": "/img/shoes/geckor-1.0.jpg",
+    "des": "Waterproof technology",
+    "price": "$59.99"
   },
   {
     "name": "Little Monster",
-    "src": "/img/shoes/little-monster1.jpg"
+    "src": "/img/shoes/little-monster1.jpg",
+    "des": "Hiking in over flat terrain",
+    "price": "$59.99"
   },
   {
     "name": "Lizardo 1x",
-    "src": "/img/shoes/lizardo-1xb.jpg"
+    "src": "/img/shoes/lizardo-1xb.jpg",
+    "des": "Hiking over rugged terrain",
+    "price": "$59.99"
   },
   {
     "name": "Mamba One",
-    "src": "/img/shoes/mamba-oneb.jpg"
+    "src": "/img/shoes/mamba-oneb.jpg",
+    "des": "Waterproof technology",
+    "price": "$59.99"
   },
   {
     "name": "Onedrive 110",
-    "src": "/img/shoes/onedrive-110.jpg"
+    "src": "/img/shoes/onedrive-110.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Onedrive 111",
-    "src": "/img/shoes/onedrive-111.jpg"
+    "src": "/img/shoes/onedrive-111.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "R1 Junior",
-    "src": "/img/shoes/r1-junior.jpg"
+    "src": "/img/shoes/r1-junior.jpg",
+    "des": "Track shoes",
+    "price": "$59.99"
   },
   {
     "name": "R1 Men",
-    "src": "/img/shoes/r1b-men.jpg"
+    "src": "/img/shoes/r1b-men.jpg",
+    "des": "Track shoes for men",
+    "price": "$59.99"
   },
   {
     "name": "Rattler 2.1",
-    "src": "/img/shoes/rattler-2.1.jpg"
+    "src": "/img/shoes/rattler-2.1.jpg",
+    "des": "Running shoes for mountain terrain ",
+    "price": "$59.99"
   },
   {
     "name": "Serpentine 1.0",
-    "src": "/img/shoes/serpentine-1.0B.jpg"
+    "src": "/img/shoes/serpentine-1.0B.jpg",
+    "des": "Water protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 100",
-    "src": "/img/shoes/skydrive-100.jpg"
+    "src": "/img/shoes/skydrive-100.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 101s",
-    "src": "/img/shoes/skydrive-101s.jpg"
+    "src": "/img/shoes/skydrive-101s.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 101t",
-    "src": "/img/shoes/skydrive-101tt.jpg"
+    "src": "/img/shoes/skydrive-101tt.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 110",
-    "src": "/img/shoes/skydrive-110-black.jpg"
+    "src": "/img/shoes/skydrive-110-black.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 117",
-    "src": "/img/shoes/skydrive-117.jpg"
+    "src": "/img/shoes/skydrive-117.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skydrive 290",
-    "src": "/img/shoes/skydrive-290B.jpg"
+    "src": "/img/shoes/skydrive-290B.jpg",
+    "des": "Shock protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Skyfit 300",
-    "src": "/img/shoes/skyfit-300.jpg"
+    "src": "/img/shoes/skyfit-300.jpg",
+    "des": "Heel protection technology",
+    "price": "$59.99"
   },
   {
     "name": "Mijaz Men",
-    "src": "/img/shoes/mijaz-menB.jpg"
+    "src": "/img/shoes/mijaz-menB.jpg",
+    "des": "Mens track shoes",
+    "price": "$59.99"
   },
   {
     "name": "Mijaz Women",
-    "src": "/img/shoes/mijaz-womenB.jpg"
+    "src": "/img/shoes/mijaz-womenB.jpg",
+    "des": "Women's track shoes",
+    "price": "$59.99"
   },
   {
     "name": "Qaasid Men",
-    "src": "/img/shoes/qaasid-menB.jpg"
+    "src": "/img/shoes/qaasid-menB.jpg",
+    "des": "Mens driving range shoes",
+    "price": "$59.99"
   },
   {
     "name": "Qaasid Women",
-    "src": "/img/shoes/qaasid-womenB.jpg"
+    "src": "/img/shoes/qaasid-womenB.jpg",
+    "des": "Women's driving range shoes",
+    "price": "$59.99"
   },
   {
     "name": "Qatra Men",
-    "src": "/img/shoes/qatra-menB.jpg"
+    "src": "/img/shoes/qatra-menB.jpg",
+    "des": "Mens running shoes",
+    "price": "$59.99"
   },
   {
     "name": "Qatra Women",
-    "src": "/img/shoes/qatra-women-frostberry.jpg"
+    "src": "/img/shoes/qatra-women-frostberry.jpg",
+    "des": "Women's running shoes",
+    "price": "$59.99"
   },
   {
     "name": "Sockun Laundry Bag",
-    "src": "/img/shoes/sockun-laundry.jpg"
+    "src": "/img/shoes/sockun-laundry.jpg",
+    "des": "Easy storage of laundry",
+    "price": "$79.99"
   }
 
 ]

@@ -14,16 +14,22 @@
         class="flex flex-col md:flex-row md:space-x-20 justify-center w-full"
       >
         <div class="text-center md:text-left">
-          <a href="#" class="text-sm text-accent-blue">Home</a>
+          <NuxtLink to="/" class="text-sm text-accent-blue">Home</NuxtLink>
         </div>
         <div class="text-center md:text-left">
-          <a href="#" class="text-sm text-accent-blue">About Us</a>
+          <NuxtLink to="/about" class="text-sm text-accent-blue"
+            >About Us</NuxtLink
+          >
         </div>
         <div class="text-center md:text-left">
-          <a href="#" class="text-sm text-accent-blue">Our Shoes</a>
+          <NuxtLink to="/collections" href="#" class="text-sm text-accent-blue"
+            >Our Shoes</NuxtLink
+          >
         </div>
         <div class="text-center md:text-left">
-          <a href="#" class="text-sm text-accent-blue">Contact Us</a>
+          <NuxtLink to="/contact" class="text-sm text-accent-blue"
+            >Contact Us</NuxtLink
+          >
         </div>
       </div>
     </div>
