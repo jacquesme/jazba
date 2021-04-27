@@ -17,7 +17,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/fonts.css', '@/assets/css/animate.css'],
+  css: ['@/assets/css/fonts.css', 'animate.css/animate.compat.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [{ src: '@/plugins/wow.js', ssr: false }],

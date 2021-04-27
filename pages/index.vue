@@ -1,11 +1,21 @@
 <template>
   <div>
-    <Carousel class="animate__animated animate__fadeIn" />
+    <Carousel />
 
     <div class="px-10 md:px-40 mt-32">
       <div class="w-full flex flex-col justify-center -mt-1.5">
-        <h2 class="text-center text-xl font-bold">Tredwear's Story</h2>
-        <p class="text-center text-justify text-sm mt-6">
+        <h2
+          class="text-center text-xl font-bold wow fadeIn"
+          data-wow-duration="1.2s"
+          data-wow-delay="0.5s"
+        >
+          Tredwear's Story
+        </h2>
+        <p
+          class="text-center text-justify text-sm mt-6 wow fadeIn"
+          data-wow-duration="1.2s"
+          data-wow-delay="0.5s"
+        >
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
           et quas molestias excepturi sint occaecati cupiditate non provident,
@@ -16,19 +26,39 @@
           omnis voluptas assumenda est, omnis dolor repellendus.
         </p>
       </div>
-      <h2 class="text-center text-xl font-bold mt-14 -mb-0.5">Top Products</h2>
+      <h2
+        class="text-center text-xl font-bold mt-14 -mb-0.5 wow fadeIn"
+        data-wow-duration="1.2s"
+        data-wow-delay="0.5s"
+      >
+        Top Products
+      </h2>
       <div class="flex flex-col md:flex-row mt-8 p-0.5 md:space-x-5">
         <TopProducts
           v-for="(topItem, index) in topItems"
           :key="index"
+          class="wow fadeIn"
+          data-wow-duration="1.2s"
+          data-wow-delay="0.7s"
           :top-item="topItem"
         />
       </div>
-      <h2 class="text-center text-xl font-bold mt-28">Featured Category</h2>
+      <h2
+        class="text-center text-xl font-bold mt-28 wow fadeIn"
+        data-wow-offset="10"
+        data-wow-duration="1.2s"
+        data-wow-delay="0.3s"
+      >
+        Featured Category
+      </h2>
       <div class="flex flex-col md:flex-row mt-7 md:px-16">
         <FeatureFirstCategory
           v-for="(featureFirstItem, index) in featureFirstItems"
           :key="index"
+          class="wow fadeIn"
+          data-wow-offset="10"
+          data-wow-duration="1.3s"
+          data-wow-delay="0.7s"
           :feature-first-item="featureFirstItem"
         />
       </div>
@@ -36,7 +66,10 @@
         <FeatureSecondCategory
           v-for="(featureSecondItem, index) in featureSecondItems"
           :key="index"
-          class="my-4"
+          class="my-4 wow fadeIn"
+          data-wow-offset="10"
+          data-wow-duration="1.4s"
+          data-wow-delay="0.5s"
           :feature-second-item="featureSecondItem"
         />
       </div>
@@ -48,11 +81,20 @@
     />
     <div class="border-b border-grey-3 pb-10">
       <div class="flex flex-col md:flex-row mt-12 md:px-52">
-        <HomeViewOne />
+        <HomeViewOne
+          class="wow fadeIn"
+          data-wow-offset="20"
+          data-wow-duration="1s"
+          data-wow-delay="0.4s"
+        />
         <HomeViewOneSearch
           v-for="(homeOneViewItem, index) in homeOneViewItems"
           :key="index"
           :home-one-view-item="homeOneViewItem"
+          class="wow fadeIn"
+          data-wow-offset="20"
+          data-wow-duration="1s"
+          data-wow-delay="0.6s"
         />
       </div>
       <div class="flex flex-col md:flex-row mt-4 md:px-52">
@@ -60,12 +102,28 @@
           v-for="(homeTwoViewItem, index) in homeTwoViewItems"
           :key="index"
           :home-two-view-item="homeTwoViewItem"
+          class="wow fadeIn"
+          data-wow-offset="20"
+          data-wow-duration="1s"
+          data-wow-delay="0.8s"
         />
       </div>
     </div>
     <div class="border-b border-grey-3 pb-10">
-      <h2 class="text-center text-md font-bold mt-10">Featured Collection</h2>
-      <div class="flex justify-center mt-4">
+      <h2
+        class="text-center text-md font-bold mt-10 wow fadeIn"
+        data-wow-offset="20"
+        data-wow-duration="1s"
+        data-wow-delay="0.8s"
+      >
+        Featured Collection
+      </h2>
+      <div
+        class="flex justify-center mt-4 wow fadeIn"
+        data-wow-offset="20"
+        data-wow-duration="1s"
+        data-wow-delay="1s"
+      >
         <button class="border-2 border-black text-xs py-1 px-5">
           View More
         </button>
@@ -75,12 +133,28 @@
           v-for="(featureCollectionItem, index) in featureCollectionItems"
           :key="index"
           :feature-collection-item="featureCollectionItem"
+          class="wow fadeIn"
+          data-wow-offset="20"
+          data-wow-duration="1s"
+          data-wow-delay="1s"
         />
       </div>
     </div>
     <div class="pt-10 pb-16">
-      <h2 class="text-center text-md font-bold mt-2">Feel The Vibe</h2>
-      <div class="flex justify-center mt-4">
+      <h2
+        class="text-center text-md font-bold mt-2 wow fadeIn"
+        data-wow-offset="20"
+        data-wow-duration="1.2s"
+        data-wow-delay="1s"
+      >
+        Feel The Vibe
+      </h2>
+      <div
+        class="flex justify-center mt-4 wow fadeIn"
+        data-wow-offset="20"
+        data-wow-duration="1.2s"
+        data-wow-delay="1s"
+      >
         <iframe
           width="700"
           height="400"
