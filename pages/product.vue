@@ -13,10 +13,12 @@
           />Back to All Collections</NuxtLink
         >
       </div>
-      <div
-        class="flex flex-col md:flex-row pb-5 animate__animated animate__slideInRight"
-      >
-        <div class="flex flex-col w-full md:flex-row md:w-1/2">
+      <div class="flex flex-col md:flex-row pb-5">
+        <div
+          class="flex flex-col w-full md:flex-row md:w-1/2 wow fadeIn"
+          data-wow-duration="1.2s"
+          data-wow-delay="0.7s"
+        >
           <Product
             v-for="(collectionItem, index) in collectionItems"
             :key="index"
