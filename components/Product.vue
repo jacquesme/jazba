@@ -1,5 +1,5 @@
 <template>
-  <div v-if="collectionItem.name == 'CoverDrive 100'">
+  <div>
     <div>
       <img :src="collectionItem.src" alt="" class="w-full h-auto" />
       <h3>{{ collectionItem.name }}</h3>

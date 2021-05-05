@@ -39,7 +39,7 @@
           :key="index"
           class="wow fadeIn"
           data-wow-duration="1.2s"
-          data-wow-delay="0.7s"
+          :data-wow-delay="`${0.3 * index}s`"
           :top-item="topItem"
         />
       </div>
@@ -58,7 +58,7 @@
           class="wow fadeIn"
           data-wow-offset="10"
           data-wow-duration="1.3s"
-          data-wow-delay="0.7s"
+          :data-wow-delay="`${0.5 * index}s`"
           :feature-first-item="featureFirstItem"
         />
       </div>
@@ -69,7 +69,7 @@
           class="my-4 wow fadeIn"
           data-wow-offset="10"
           data-wow-duration="1.4s"
-          data-wow-delay="0.5s"
+          :data-wow-delay="`${0.3 * index}s`"
           :feature-second-item="featureSecondItem"
         />
       </div>
@@ -94,7 +94,7 @@
           class="wow fadeIn"
           data-wow-offset="20"
           data-wow-duration="1s"
-          data-wow-delay="0.6s"
+          :data-wow-delay="`${0.3 * index}s`"
         />
       </div>
       <div class="flex flex-col md:flex-row mt-4 md:px-52">
@@ -105,7 +105,7 @@
           class="wow fadeIn"
           data-wow-offset="20"
           data-wow-duration="1s"
-          data-wow-delay="0.8s"
+          :data-wow-delay="`${0.3 * index}s`"
         />
       </div>
     </div>
@@ -136,7 +136,7 @@
           class="wow fadeIn"
           data-wow-offset="20"
           data-wow-duration="1s"
-          data-wow-delay="1s"
+          :data-wow-delay="`${0.3 * index}s`"
         />
       </div>
     </div>
@@ -167,6 +167,7 @@
 </template>
 
 <script>
+import wow from '@/mixins/wow'
 import TopProducts from '~/components/TopProducts'
 import TopItems from '~/assets/data/top-products.json'
 import FeatureFirstCategory from '~/components/FeatureFirstCategory'
@@ -192,6 +193,7 @@ export default {
     HomeViewTwoSearch,
     FeatureCollection,
   },
+  mixins: [wow],
   data() {
     return {
       topItems: TopItems,

@@ -43,7 +43,7 @@
           <h2 class="text-center text-xs">Founder / Director</h2>
         </div>
       </div>
-      <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.9s">
+      <div class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
         <p class="text-center text-xs mt-10">
           I believe people with passion can change the world and if you are one
           of those believers then you are part of my tribe. Tredwear is born out
@@ -84,7 +84,10 @@
 </template>
 
 <script>
-export default {}
+import wow from '@/mixins/wow.js'
+export default {
+  mixins: [wow],
+}
 </script>
 
 <style scoped></style>

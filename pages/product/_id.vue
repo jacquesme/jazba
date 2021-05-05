@@ -2,7 +2,7 @@
   <div class="px-10 md:px-52">
     <div class="px-0 md:px-20 md:pt-7">
       <div class="flex flex-col md:flex-row md:justify-between">
-        <h3 class="inline text-sm order-2 md:order-1">Coverdrive 100</h3>
+        <h3 class="inline text-sm order-2 md:order-1">{{ item.name }}</h3>
         <NuxtLink
           to="/collections"
           class="inline text-sm float-right order-1 md:order-2 pb-8 md:pb-0"
@@ -19,12 +19,7 @@
           data-wow-duration="1.2s"
           data-wow-delay="0.7s"
         >
-          <Product
-            v-for="(collectionItem, index) in collectionItems"
-            :key="index"
-            :collection-item="collectionItem"
-            class="p-5"
-          />
+          <Product :collection-item="item" class="p-5" />
         </div>
       </div>
     </div>
@@ -32,14 +27,24 @@
 </template>
 
 <script>
+import wow from '@/mixins/wow'
 import Product from '~/components/Product'
 import CollectionItems from '~/assets/data/all-collections.json'
 export default {
   components: { Product },
+  mixins: [wow],
   data() {
     return {
       collectionItems: CollectionItems,
     }
+  },
+  computed: {
+    item() {
+      return this.collectionItems.find((item, index) => {
+        console.log(item)
+        return index === parseInt(this.$route.params.id)
+      })
+    },
   },
 }
 </script>

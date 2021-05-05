@@ -1,14 +1,12 @@
 <template>
-  <div class="">
-    <NuxtLink to="/product">
+  <div>
+    <NuxtLink to="/product/15">
       <img
         :src="fullCollectionItem.src"
         alt="shoe-image"
         class="w-full h-auto"
       />
-      <h2 class="text-center">
-        {{ fullCollectionItem.name }}
-      </h2>
+      <h2 class="text-center">{{ fullCollectionItem.name }}</h2>
     </NuxtLink>
   </div>
 </template>

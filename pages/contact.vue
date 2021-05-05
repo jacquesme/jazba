@@ -15,10 +15,12 @@
 </template>
 
 <script>
+import wow from '@/mixins/wow'
 import ContactCard from '~/components/ContactUs'
 import ContactItems from '~/assets/data/contact-us.json'
 export default {
   components: { ContactCard },
+  mixins: [wow],
   data() {
     return {
       contactItems: ContactItems,
