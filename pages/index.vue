@@ -35,12 +35,12 @@
       </h2>
       <div class="flex flex-col md:flex-row mt-8 p-0.5 md:space-x-5">
         <TopProducts
-          v-for="(topItem, index) in topItems"
+          v-for="(product, index) in products"
           :key="index"
+          :item="product"
           class="wow fadeIn"
           data-wow-duration="1.2s"
           :data-wow-delay="`${0.3 * index}s`"
-          :top-item="topItem"
         />
       </div>
       <h2
@@ -53,24 +53,24 @@
       </h2>
       <div class="flex flex-col md:flex-row mt-7 md:px-16">
         <FeatureFirstCategory
-          v-for="(featureFirstItem, index) in featureFirstItems"
+          v-for="(product, index) in products"
           :key="index"
+          :item="product"
           class="wow fadeIn"
           data-wow-offset="10"
           data-wow-duration="1.3s"
           :data-wow-delay="`${0.5 * index}s`"
-          :feature-first-item="featureFirstItem"
         />
       </div>
       <div class="flex flex-col md:space-x-6 md:flex-row md:px-16">
         <FeatureSecondCategory
-          v-for="(featureSecondItem, index) in featureSecondItems"
+          v-for="(product, index) in products"
           :key="index"
+          :item="product"
           class="my-4 wow fadeIn"
           data-wow-offset="10"
           data-wow-duration="1.4s"
           :data-wow-delay="`${0.3 * index}s`"
-          :feature-second-item="featureSecondItem"
         />
       </div>
     </div>
@@ -88,9 +88,9 @@
           data-wow-delay="0.4s"
         />
         <HomeViewOneSearch
-          v-for="(homeOneViewItem, index) in homeOneViewItems"
+          v-for="(product, index) in products"
           :key="index"
-          :home-one-view-item="homeOneViewItem"
+          :item="product"
           class="wow fadeIn"
           data-wow-offset="20"
           data-wow-duration="1s"
@@ -99,9 +99,9 @@
       </div>
       <div class="flex flex-col md:flex-row mt-4 md:px-52">
         <HomeViewTwoSearch
-          v-for="(homeTwoViewItem, index) in homeTwoViewItems"
+          v-for="(product, index) in products"
           :key="index"
-          :home-two-view-item="homeTwoViewItem"
+          :item="product"
           class="wow fadeIn"
           data-wow-offset="20"
           data-wow-duration="1s"
@@ -130,9 +130,9 @@
       </div>
       <div class="flex flex-col md:flex-row mt-4 md:px-52">
         <FeatureCollection
-          v-for="(featureCollectionItem, index) in featureCollectionItems"
+          v-for="(product, index) in products"
           :key="index"
-          :feature-collection-item="featureCollectionItem"
+          :item="product"
           class="wow fadeIn"
           data-wow-offset="20"
           data-wow-duration="1s"
@@ -168,20 +168,26 @@
 
 <script>
 import wow from '@/mixins/wow'
+import axios from 'axios'
 import TopProducts from '~/components/TopProducts'
-import TopItems from '~/assets/data/top-products.json'
+// import TopItems from '~/assets/data/top-products.json'
+// import Products from '~/assets/data/all-collections.js'
+// import Products from '~/static/api/products.json'
+// import TopItems from '~/assets/data/all-collections.js'
 import FeatureFirstCategory from '~/components/FeatureFirstCategory'
-import FeatureFirstItems from '~/assets/data/feature-firstcategory.json'
+// import FeatureFirstItems from '~/assets/data/feature-firstcategory.json'
+// import FeatureFirstItems from '~/assets/data/all-collections.js'
 import FeatureSecondCategory from '~/components/FeatureSecondCategory'
-import FeatureSecondItems from '~/assets/data/feature-secondcategory.json'
+// import FeatureSecondItems from '~/assets/data/feature-secondcategory.json'
+// import FeatureSecondItems from '~/assets/data/all-collections.js'
 import HomeViewOne from '~/components/HomeViewOne'
 import HomeViewOneSearch from '~/components/HomeViewOneSearch'
-import HomeOneViewItems from '~/assets/data/home-oneview.json'
+// import HomeOneViewItems from '~/assets/data/home-oneview.json'
 import Carousel from '~/components/Carousel'
 import HomeViewTwoSearch from '~/components/HomeViewTwoSearch'
-import HomeTwoViewItems from '~/assets/data/home-twoview.json'
+// import HomeTwoViewItems from '~/assets/data/home-twoview.json'
 import FeatureCollection from '~/components/FeatureCollection'
-import FeatureCollectionItems from '~/assets/data/feature-collection.json'
+// import FeatureCollectionItems from '~/assets/data/feature-collection.json'
 export default {
   components: {
     TopProducts,
@@ -196,14 +202,25 @@ export default {
   mixins: [wow],
   data() {
     return {
-      topItems: TopItems,
-      featureFirstItems: FeatureFirstItems,
-      featureSecondItems: FeatureSecondItems,
-      homeOneViewItems: HomeOneViewItems,
-      homeTwoViewItems: HomeTwoViewItems,
-      featureCollectionItems: FeatureCollectionItems,
+      // products: Products,
+      products: [],
+      info: null,
+      // topItems: TopItems,
+      // featureFirstItems: FeatureFirstItems,
+      // featureSecondItems: FeatureSecondItems,
+      // homeOneViewItems: HomeOneViewItems,
+      // homeTwoViewItems: HomeTwoViewItems,
+      // featureCollectionItems: FeatureCollectionItems,
     }
   },
+  mounted() {
+    axios.get('api/products.json').then((response) => {
+      this.products = response.data
+    })
+  },
+  // async fetch() {
+  //   this.products = await this.$axios.get('/api/products.json')
+  // },
 }
 </script>
 

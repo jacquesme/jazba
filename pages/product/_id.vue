@@ -28,23 +28,29 @@
 
 <script>
 import wow from '@/mixins/wow'
+import axios from 'axios'
 import Product from '~/components/Product'
-import CollectionItems from '~/assets/data/all-collections.json'
+// import CollectionItems from '~/assets/data/all-collections.js'
 export default {
   components: { Product },
   mixins: [wow],
   data() {
     return {
-      collectionItems: CollectionItems,
+      collectionItems: [],
     }
   },
   computed: {
     item() {
-      return this.collectionItems.find((item, index) => {
-        console.log(item)
-        return index === parseInt(this.$route.params.id)
+      return this.collectionItems.find((item) => {
+        return item.id === parseInt(this.$route.params.id)
       })
     },
+  },
+  mounted() {
+    axios.get('api/products.json').then((response) => {
+      this.collectionItems = response.data
+      console.log(this.collectionItems)
+    })
   },
 }
 </script>

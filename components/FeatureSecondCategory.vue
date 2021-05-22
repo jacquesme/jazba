@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full">
-    <img :src="featureSecondItem.src" alt="shoe image" class="w-full m-auto" />
+  <div v-if="item.categoryName === 'featureTwo'" class="w-full">
+    <img :src="item.src" alt="shoe image" class="w-full m-auto" />
     <h3 class="text-center text-sm">
-      {{ featureSecondItem.name }}
+      {{ item.name }}
     </h3>
   </div>
 </template>
@@ -10,7 +10,7 @@
 <script>
 export default {
   props: {
-    featureSecondItem: {
+    item: {
       type: Object,
       default: () => ({}),
     },
