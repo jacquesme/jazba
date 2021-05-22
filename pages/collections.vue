@@ -27,7 +27,7 @@
 
 <script>
 import wow from '@/mixins/wow'
-import axios from 'axios'
+// import axios from 'axios'
 import AllCollections from '~/components/AllCollections'
 // import AllCollectionsItems from '~/assets/data/all-collections.js'
 export default {
@@ -41,14 +41,15 @@ export default {
       compIndex: 0,
     }
   },
-  mounted() {
-    axios.get('api/products.json').then((response) => {
-      this.fullCollectionItems = response.data
-    })
-  },
-  // async fetch() {
-  //   this.fullCollectionItems = await this.$axios.get('/api/products.json')
+  // mounted() {
+  //   axios.get('api/products.json').then((response) => {
+  //     this.fullCollectionItems = response.data
+  //   })
   // },
+  async fetch() {
+    this.fullCollectionItems = await this.$axios.$get('/api/products.json')
+    console.log(this.fullCollectionItems)
+  },
 }
 </script>
 
