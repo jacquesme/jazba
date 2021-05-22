@@ -1,12 +1,8 @@
 <template>
-  <div class="w-full">
-    <img
-      :src="homeTwoViewItem.src"
-      alt="shoe image"
-      class="w-full h-auto m-auto"
-    />
+  <div v-if="item.categoryName === 'homeTwo'" class="w-full">
+    <img :src="item.src" alt="shoe image" class="w-full h-auto m-auto" />
     <h3 class="text-center text-xs mt-1">
-      {{ homeTwoViewItem.name }}
+      {{ item.name }}
     </h3>
   </div>
 </template>
@@ -14,7 +10,7 @@
 <script>
 export default {
   props: {
-    homeTwoViewItem: {
+    item: {
       type: Object,
       default: () => ({}),
     },
