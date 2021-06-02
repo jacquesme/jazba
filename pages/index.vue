@@ -168,26 +168,14 @@
 
 <script>
 import wow from '@/mixins/wow'
-import axios from 'axios'
 import TopProducts from '~/components/TopProducts'
-// import TopItems from '~/assets/data/top-products.json'
-// import Products from '~/assets/data/all-collections.js'
-// import Products from '~/static/api/products.json'
-// import TopItems from '~/assets/data/all-collections.js'
 import FeatureFirstCategory from '~/components/FeatureFirstCategory'
-// import FeatureFirstItems from '~/assets/data/feature-firstcategory.json'
-// import FeatureFirstItems from '~/assets/data/all-collections.js'
 import FeatureSecondCategory from '~/components/FeatureSecondCategory'
-// import FeatureSecondItems from '~/assets/data/feature-secondcategory.json'
-// import FeatureSecondItems from '~/assets/data/all-collections.js'
 import HomeViewOne from '~/components/HomeViewOne'
 import HomeViewOneSearch from '~/components/HomeViewOneSearch'
-// import HomeOneViewItems from '~/assets/data/home-oneview.json'
 import Carousel from '~/components/Carousel'
 import HomeViewTwoSearch from '~/components/HomeViewTwoSearch'
-// import HomeTwoViewItems from '~/assets/data/home-twoview.json'
 import FeatureCollection from '~/components/FeatureCollection'
-// import FeatureCollectionItems from '~/assets/data/feature-collection.json'
 export default {
   components: {
     TopProducts,
@@ -202,25 +190,25 @@ export default {
   mixins: [wow],
   data() {
     return {
-      // products: Products,
       products: [],
       info: null,
-      // topItems: TopItems,
-      // featureFirstItems: FeatureFirstItems,
-      // featureSecondItems: FeatureSecondItems,
-      // homeOneViewItems: HomeOneViewItems,
-      // homeTwoViewItems: HomeTwoViewItems,
-      // featureCollectionItems: FeatureCollectionItems,
+      fetched: false,
     }
   },
-  mounted() {
-    axios.get('api/products.json').then((response) => {
-      this.products = response.data
-    })
+  async fetch() {
+    this.products = await this.$axios.$get('/api/products.json')
+    this.fetched = true
   },
-  // async fetch() {
-  //   this.products = await this.$axios.get('/api/products.json')
-  // },
+  watch: {
+    fetched(value) {
+      if (value !== false) {
+        this.$nextTick(() => {
+          const WOW = require('wowjs')
+          new WOW.WOW().init()
+        })
+      }
+    },
+  },
 }
 </script>
 
